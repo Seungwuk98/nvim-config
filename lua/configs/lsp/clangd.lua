@@ -6,7 +6,7 @@ lspconfig.clangd.setup {
   on_init = nvlsp.on_init,
   capabilities = nvlsp.capabilities,
   cmd = { "clangd", "--background-index", "--suggest-missing-includes", "--clang-tidy" },
-  filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto" },
+  filetypes = { "c", "cpp", "inc", "objc", "objcpp", "cuda", "proto" },
   root_dir = function(fname)
     return require("lspconfig.util").root_pattern(
       "Makefile",

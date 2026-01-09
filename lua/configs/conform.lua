@@ -5,6 +5,7 @@ local options = {
     rust = { "rustfn", lsp_format = "fallback" },
     javascript = { "prettier" },
     typescript = { "prettier" },
+    python = { "isort", "black" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },

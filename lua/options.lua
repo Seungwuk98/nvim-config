@@ -22,3 +22,6 @@ nvimtree.setup {
 local option = require "nvchad"
 
 vim.cmd "set colorcolumn=80"
+
+require "configs.language.bara"
+require "configs.language.kecc-ir"
